@@ -7,8 +7,11 @@ import './App.css'
 // import Heading from "./Heading"
 // import ColorList from "./ColorList"
 // import ShoppingList from "./ShoppingList"
-import Clicker from "./Clicker";
-import Form from "./Form";
+// import Clicker from "./Clicker";
+// import Form from "./Form";
+import Counter from './Counter';
+// import Toggler from './Toggler';
+// import ToggleCounter from "./ToggleCounter";
 
 // const data = [
 //   {id: 1, item: "eggs", quantity: 12, completed: false},
@@ -36,8 +39,16 @@ function App() {
       <ColorList colors={["olive", "tan", "slategray"]}/> */}
 
       {/* <ShoppingList items={data}/> */}
-      <Form/>
-      <Clicker/>
+
+      {/* <Form/>
+      <Clicker/> */}
+
+      <Counter num={0}/>
+
+      {/* <Toggler/> */}
+
+      {/* <ToggleCounter/> */}
+
     </div>
   );
 }
