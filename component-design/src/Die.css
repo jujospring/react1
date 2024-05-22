@@ -1,0 +1,13 @@
+.Die {
+  background-color: cadetblue;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  width: 3em;
+  height: 2.25em;
+  padding-top: 0.75em;
+  text-align: center;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+  font-size: 1.5em;
+}
