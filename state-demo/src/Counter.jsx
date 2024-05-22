@@ -15,10 +15,10 @@ export default function Counter() {
 	};
   return (
 		<div>
-      <h2>Counter: {count}</h2>
-        <button onClick={addOne}>+1</button>
-				<button onClick={addTwo}>+2</button>
-				<button onClick={setEight}>8</button>
+			<h2>Counter: {count}</h2>
+			<button onClick={addOne}>+1</button>
+			<button onClick={addTwo}>+2</button>
+			<button onClick={setEight}>8</button>
     </div>
   )
 }
